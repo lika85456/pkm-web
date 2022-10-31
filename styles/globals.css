@@ -1,14 +1,21 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
+  width: 800px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 8px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
 a {
-  color: inherit;
-  text-decoration: none;
+  color: #421ca8;
 }
 
 * {
@@ -19,6 +26,7 @@ a {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
