@@ -1,4 +1,5 @@
 import "../styles/Home.module.css"
+import Layout from "../components/Layout"
 
 <title>Přípravný kurz programování</title>
 
@@ -40,3 +41,5 @@ Pomozte nám s naším projektem vyplněním [dotazníku](https://forms.gle/9w1o
     - Vojtěch Jedlička ([jedlivo1@fit.cvut.cz](mailto:jedlivo1@fit.cvut.cz))
     - Andrej Meliška ([melisand@fit.cvut.cz](mailto:melisand@fit.cvut.cz))
     - Filip Kašpar ([kaspafil@fit.cvut.cz](mailto:kaspafil@fit.cvut.cz))
+
+export default ({ children }) => <Layout>{children}</Layout>
